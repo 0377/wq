@@ -1,0 +1,31 @@
+<?php
+/*
+ * 人人商城
+ *
+ * 青岛易联互动网络科技有限公司
+ * http://www.we7shop.cn
+ * TEL: 4000097827/18661772381/15865546761
+ */
+if(!defined('IN_IA')) {
+     exit('Access Denied');
+}
+define('EWEI_SHOPV2_DEBUG', false);
+!defined('EWEI_SHOPV2_PATH') && define('EWEI_SHOPV2_PATH',IA_ROOT.'/addons/ewei_shopv2/');
+!defined('EWEI_SHOPV2_CORE') && define('EWEI_SHOPV2_CORE', EWEI_SHOPV2_PATH .'core/');
+!defined('EWEI_SHOPV2_DATA') && define('EWEI_SHOPV2_DATA', EWEI_SHOPV2_PATH .'data/');
+!defined('EWEI_SHOPV2_VENDOR') && define('EWEI_SHOPV2_VENDOR', EWEI_SHOPV2_PATH .'vendor/');
+!defined('EWEI_SHOPV2_CORE_WEB') && define('EWEI_SHOPV2_CORE_WEB', EWEI_SHOPV2_CORE .'web/');
+!defined('EWEI_SHOPV2_CORE_MOBILE') && define('EWEI_SHOPV2_CORE_MOBILE', EWEI_SHOPV2_CORE .'mobile/');
+!defined('EWEI_SHOPV2_CORE_SYSTEM') && define('EWEI_SHOPV2_CORE_SYSTEM', EWEI_SHOPV2_CORE .'system/');
+!defined('EWEI_SHOPV2_PLUGIN') && define('EWEI_SHOPV2_PLUGIN',EWEI_SHOPV2_PATH.'plugin/');
+!defined('EWEI_SHOPV2_PROCESSOR') && define('EWEI_SHOPV2_PROCESSOR',EWEI_SHOPV2_CORE.'processor/');
+!defined('EWEI_SHOPV2_INC') && define('EWEI_SHOPV2_INC', EWEI_SHOPV2_CORE.'inc/');
+!defined('EWEI_SHOPV2_URL') && define('EWEI_SHOPV2_URL',$_W['siteroot'].'addons/ewei_shopv2/');
+!defined('EWEI_SHOPV2_TASK_URL') && define('EWEI_SHOPV2_TASK_URL',$_W['siteroot'].'addons/ewei_shopv2/core/task/');
+!defined('EWEI_SHOPV2_LOCAL') && define('EWEI_SHOPV2_LOCAL','../addons/ewei_shopv2/');
+!defined('EWEI_SHOPV2_STATIC') && define('EWEI_SHOPV2_STATIC', EWEI_SHOPV2_URL.'static/');
+!defined('EWEI_SHOPV2_PREFIX') && define('EWEI_SHOPV2_PREFIX','ewei_shop_');
+!defined('EWEI_SHOPV2_AUTH_URL') && define('EWEI_SHOPV2_AUTH_URL','http://upgrade.we7shop.com/api/');
+!defined('EWEI_SHOPV2_AUTH_WXAPP') && define('EWEI_SHOPV2_AUTH_WXAPP','https://wx-app-manage.baicms.cn/');
+!defined('EWEI_SHOPV2_NEW_AUTH_URL') && define('EWEI_SHOPV2_NEW_AUTH_URL','https://upgrader-hjeg.we7shop.com/api/newapi');
+define('EWEI_SHOPV2_PLACEHOLDER','../addons/ewei_shopv2/static/images/placeholder.png');
